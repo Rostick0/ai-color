@@ -1,4 +1,4 @@
-const Matrix = {
+export const Matrix = {
   fromArray: (arr: number[]): number[][] => arr.map((i) => [i]),
 
   getSize: (a: number[][]): [number, number] => [a[0].length, a.length],
